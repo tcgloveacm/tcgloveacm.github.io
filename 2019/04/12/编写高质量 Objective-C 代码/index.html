@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="若饥">
 <meta property="og:description" content="第一章 熟悉 Objective-C第一条：了解 Objective-C 起源Objective-C 是 C 语言动态性扩充。使用“消息结构”而非“函数调用”，因为继承了 Smalltalk 的语言风格。消息与函数的区别如下：">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-04-18T07:07:04.168Z">
+<meta property="og:updated_time" content="2019-04-30T02:34:36.452Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="编写高质量 Objective-C 代码">
 <meta name="twitter:description" content="第一章 熟悉 Objective-C第一条：了解 Objective-C 起源Objective-C 是 C 语言动态性扩充。使用“消息结构”而非“函数调用”，因为继承了 Smalltalk 的语言风格。消息与函数的区别如下：">
@@ -429,7 +429,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-04-18 15:07:04" itemprop="dateModified" datetime="2019-04-18T15:07:04+08:00">2019-04-18</time>
+                <time title="修改时间：2019-04-30 10:34:36" itemprop="dateModified" datetime="2019-04-30T10:34:36+08:00">2019-04-30</time>
               
             
           </span>
@@ -482,7 +482,6 @@
 
       
         <h2 id="第一章-熟悉-Objective-C"><a href="#第一章-熟悉-Objective-C" class="headerlink" title="第一章 熟悉 Objective-C"></a>第一章 熟悉 Objective-C</h2><h3 id="第一条：了解-Objective-C-起源"><a href="#第一条：了解-Objective-C-起源" class="headerlink" title="第一条：了解 Objective-C 起源"></a>第一条：了解 Objective-C 起源</h3><p>Objective-C 是 C 语言动态性扩充。使用“消息结构”而非“函数调用”，因为继承了 Smalltalk 的语言风格。消息与函数的区别如下：<br><a id="more"></a>    </p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> hljs <span class="keyword">from</span> <span class="string">'highlight.js'</span>;</span><br></pre></td></tr></table></figure>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Message (Objective-C)</span></span><br><span class="line"><span class="built_in">Object</span> *obj = [<span class="built_in">Object</span> <span class="keyword">new</span>];  </span><br><span class="line">[obj performWith:parameter1 and:parameter2];</span><br><span class="line"><span class="comment">// Function calling(C++)</span></span><br><span class="line"><span class="built_in">Object</span> *obj = <span class="keyword">new</span> <span class="built_in">Object</span>;</span><br><span class="line">obj -&gt; perform(parameter1,parameter2);</span><br></pre></td></tr></table></figure>
 <p><strong>关键区别在于：使用消息结构的语言，其运行时执行的代码由运行环境决定；而函数调用的语言，由编译器决定。</strong>    </p>
 <p>Objective-C 重要工作都由“运行期组件”而非编译器完成的。它的面向对象的特性所需的数据结构和函数全在运行期组件里面。例如：运行期组件含有全部的内存管理方法。 </p>
@@ -543,10 +542,6 @@
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
-            
-              <a href="/2019/02/27/README/" rel="next" title>
-                <i class="fa fa-chevron-left"></i> 
-              </a>
             
           </div>
 
@@ -627,7 +622,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -646,7 +641,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -669,7 +666,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>

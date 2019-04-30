@@ -96,23 +96,23 @@
 
 
 
-  <meta name="description" content="本地环境搭建安装Node.js 安装 nvm  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash">
+  <meta name="description" content="本地环境搭建安装Node.js 安装 nvm  js  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash">
 <meta name="keywords" content="Hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo 博客搭建">
 <meta property="og:url" content="http://yoursite.com/2019/04/12/Hexo博客搭建/index.html">
 <meta property="og:site_name" content="若饥">
-<meta property="og:description" content="本地环境搭建安装Node.js 安装 nvm  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash">
+<meta property="og:description" content="本地环境搭建安装Node.js 安装 nvm  js  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://blog-ruoji.oss-cn-beijing.aliyuncs.com/image/hexo.png">
 <meta property="og:image" content="https://blog-ruoji.oss-cn-beijing.aliyuncs.com/image/hexo_github.png">
 <meta property="og:image" content="https://blog-ruoji.oss-cn-beijing.aliyuncs.com/image/20190416221001.jpg">
 <meta property="og:image" content="https://blog-ruoji.oss-cn-beijing.aliyuncs.com/image/20190416222606.jpg">
 <meta property="og:image" content="https://blog-ruoji.oss-cn-beijing.aliyuncs.com/image/20190416223706.png">
-<meta property="og:updated_time" content="2019-04-16T14:58:59.525Z">
+<meta property="og:updated_time" content="2019-04-30T02:33:11.553Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo 博客搭建">
-<meta name="twitter:description" content="本地环境搭建安装Node.js 安装 nvm  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash">
+<meta name="twitter:description" content="本地环境搭建安装Node.js 安装 nvm  js  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash">
 <meta name="twitter:image" content="http://blog-ruoji.oss-cn-beijing.aliyuncs.com/image/hexo.png">
 
 
@@ -435,7 +435,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-04-16 22:58:59" itemprop="dateModified" datetime="2019-04-16T22:58:59+08:00">2019-04-16</time>
+                <time title="修改时间：2019-04-30 10:33:11" itemprop="dateModified" datetime="2019-04-30T10:33:11+08:00">2019-04-30</time>
               
             
           </span>
@@ -488,12 +488,13 @@
 
       
         <h3 id="本地环境搭建"><a href="#本地环境搭建" class="headerlink" title="本地环境搭建"></a>本地环境搭建</h3><h4 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h4><ol>
-<li><a href="https://github.com/creationix/nvm" target="_blank" rel="noopener">安装 nvm</a><br>  <code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash</code><a id="more"></a></li>
+<li><a href="https://github.com/creationix/nvm" target="_blank" rel="noopener">安装 nvm</a><br>  <code>js
+ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash</code><a id="more"></a></li>
 <li>安装 Node<br>推荐国内淘宝镜像安装<br> <code>NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node nvm install 6</code>  </li>
 </ol>
 <h4 id="安装配置Hexo"><a href="#安装配置Hexo" class="headerlink" title="安装配置Hexo"></a>安装配置Hexo</h4><ol>
 <li><p>安装 Hexo<br> npm下载包的默认地址是<a href="https://registry.npmjs.org，也是国外的，所以需要进行换源来提高下载速度。执行" target="_blank" rel="noopener">https://registry.npmjs.org，也是国外的，所以需要进行换源来提高下载速度。执行</a>  </p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org  </span><br><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+ <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="keyword">set</span> registry https://registry.npm.taobao.org  </span><br><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>指定文件夹初始化Blog<br> <code>hexo init blog</code></p>
 </li>
@@ -509,7 +510,7 @@
 <li><p>打开上面配置的 Hexo的目录，设置站点配置文件 _config.yml。<br> <img src="https://blog-ruoji.oss-cn-beijing.aliyuncs.com/image/20190416221001.jpg" alt></p>
 </li>
 <li><p>Hexo 配置部署</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo genagate 或者  hexo g </span><br><span class="line">hexo deploy   或者  hexo d</span><br></pre></td></tr></table></figure>
+ <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo genagate 或者  hexo g </span><br><span class="line">hexo deploy   或者  hexo d</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>之后就可以通过访问自己 Github仓库地址访问 Blog</p>
 </li>
@@ -570,6 +571,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/04/30/2019述职报告/" rel="prev" title="2019 述职报告">
+                2019 述职报告 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -640,7 +645,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -659,7 +664,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -682,7 +689,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
